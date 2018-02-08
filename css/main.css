@@ -14,16 +14,19 @@ ul {
 article ul {
   list-style-type: square;
 }
-#profile-pic img{
-  border-radius: 50px;
-}
 */
 aside {
   background-color: #647087
+
 }
 #profile-pic img{
   border-radius: 25%;
+  widht: 100px;
 }
+.main {
+  flex-basis: 1200px;
+  justify-content: space-between;
+  }
 aside *{
   color: white
 }
@@ -36,10 +39,45 @@ aside h2:first-child{
 }
 .hero{
   background-color: #F70DC3;
+  box-shadow: 2px 20px 40px 1px #647087 inset;
+  padding: 15% 0;
+  text-align: center;
 }
 .hero h2{
   color: white;
   border-top: 2px solid white;
   text-transform: none;
   text-spacing: normal;
+}
+h1,h2{
+  text-transform: uppercase;
+}
+.contenedor {
+  display: flex;
+  widht: 1100 px;
+}
+
+dd,dt{
+  border-top: 1px solid white;
+  line-height: 1.5em;
+  margin 0;
+  flex-basis: 40%;
+}
+dt {
+  clear: left;
+  flex-basis: 30%;
+  float: left;
+  font-weight: bolder;
+}
+dd {
+  clear: right;
+  flex-basis: 30%;
+  float: left;
+}
+/*dl {
+  display: flex;
+  flex-grow: row;
+}*/
+dd: last-of-type, dt: last-of-type{
+  border-bottom: 1px solid white;
 }
