@@ -95,3 +95,16 @@ article ul {
   list-style-type: square;
 }
 */
+
+
+@media (max-widht:400){
+.main-container{
+  widht: 400px;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+}
+  aside,
+  main{
+    flex:100%;
+  }
+}
