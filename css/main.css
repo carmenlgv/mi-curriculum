@@ -108,3 +108,14 @@ article ul {
     flex:100%;
   }
 }
+@media (max-widht:1000){
+.main-container{
+  widht: 1000px;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+}
+  aside,
+  main{
+    flex:100%;
+  }
+}
